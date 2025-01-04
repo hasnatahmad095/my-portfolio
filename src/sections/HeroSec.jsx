@@ -31,7 +31,8 @@ const HeroSec = () => {
             <br />& Designer */}
             MERN Stack <br />
             <span className="text-secondaryAccent">Developer</span>
-            <br />& Designer
+            <br />
+            & Designer
           </motion.h1>
         </div>
       </section>

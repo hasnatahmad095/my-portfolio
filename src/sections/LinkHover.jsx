@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import "../link.css";
 import { Link, useLocation } from "react-router-dom";
 
-import img1 from "../assets/images/phone.jpg";
+import img1 from "../assets/images/pixl-1.png";
 
 import tour2 from "../assets/images/project-img/tour-2.jpg";
 
@@ -148,14 +148,23 @@ const LinkHover = () => {
         Recent Projects
       </h6>
       <nav className="menu w-full">
-      {/* Lumivu */}
-        <MenuItem imageUrl={img1} text="Pixl" link="Lumivu" />
+        {/* Lumivu */}
+        <MenuItem imageUrl={img1} text="Pixl" link="Pixl" />
         {/* Travel */}
         <MenuItem imageUrl={tour2} text="Fine Peace" link="TravelVoyage" />
         {/* Whisperr */}
         <MenuItem imageUrl={chat2} text="Jeff Staple" link="Whisperr" />
         {/* CelestaGen */}
+        <MenuItem imageUrl={chat2} text="Al-Zarooni Developments" link="Whisperr" />
         <MenuItem imageUrl={ai1} text="Seventh Move" link="CelestaGen" />
+        <MenuItem imageUrl={ai1} text="Irth" link="CelestaGen" />
+        <MenuItem imageUrl={ai1} text="Svarn Developments" link="CelestaGen" />
+        <MenuItem imageUrl={ai1} text="Fine Peace" link="CelestaGen" />
+        <MenuItem imageUrl={ai1} text="Zoya Developments" link="CelestaGen" />
+        <MenuItem imageUrl={ai1} text="K&h Real Estate" link="CelestaGen" />
+        <MenuItem imageUrl={ai1} text="Hre Developments" link="CelestaGen" />
+        <MenuItem imageUrl={ai1} text="Pearlshire" link="CelestaGen" />
+        <MenuItem imageUrl={ai1} text="Travel Voyage" link="CelestaGen" />
       </nav>
       <div className="flex justify-center items-center w-full mt-20">
         <a

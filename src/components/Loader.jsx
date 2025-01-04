@@ -63,7 +63,7 @@ const Loader = ({ onAnimationComplete }) => {
     <div className="loader font-primary z-[1000] w-full h-screen text-neutralLight flex flex-col justify-center items-center p-[2.8em] fixed top-0 bottom-auto left-0 right-0 overflow-hidden">
       <div className="loader-wrapper w-full flex justify-between items-center overflow-hidden">
         <div style={{ opacity: 0 }} className="text-block-2">
-          Full-Stack Developer <br /> &amp; Designer
+          MERN Stack Developer <br /> &amp; Designer
         </div>
         <div
           style={{ opacity: 1 }}

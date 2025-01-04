@@ -9,9 +9,9 @@ const Skills = () => {
           <li className="relative  px-4 md:px-32 lg:px-44 border-t border-neutralLight/10 hover:text-primaryDark before-item duration-500">
             <span className="hover-item z-10 relative">Web Development</span>
           </li>
-          <li className="relative  px-4 md:px-32 lg:px-44 border-t border-neutralLight/10 hover:text-primaryDark before-item duration-500">
+          {/* <li className="relative  px-4 md:px-32 lg:px-44 border-t border-neutralLight/10 hover:text-primaryDark before-item duration-500">
             <span className="hover-item z-10 relative">Ui Design</span>
-          </li>
+          </li> */}
           <li className="relative  px-4 md:px-32 lg:px-44 border-t border-neutralLight/10 hover:text-primaryDark before-item duration-500">
             <span className="hover-item z-10 relative">Web Animations</span>
           </li>
