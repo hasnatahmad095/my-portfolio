@@ -20,7 +20,7 @@ import ai3 from "../../assets/images/project-img/ai-3.jpg";
 import ai4 from "../../assets/images/project-img/ai-4.jpg";
 
 export const data = {
-  Lumivu: {
+  Pixl: {
     name: "Pixl",
     image: new1,
     tool: "Development",
